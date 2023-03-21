@@ -12,3 +12,6 @@
 | `/setTicketRole >role<` | Sets the roles who can chat in the private channel. |
 | `/setTicketChannel >#channel<` | Sets a custom channel that'll be created when a user invokes `/ticket`. |
 | `/setTicketExpire >timeInHours<` | Sets a custom auto-deletetion time for the ticket due to inactivity. Default: 5 hours. |
+
+## Statistics
+[![Contributors over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=Naereen/badges)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=Naereen/badges)
