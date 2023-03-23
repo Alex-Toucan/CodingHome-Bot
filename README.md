@@ -1,7 +1,7 @@
 # CodingHome-Bot
 ## Functionality
-- [ ] Helper Points System
-- [ ] Integrated Command Ticket System
+- [ ] [Helper Points System](#helperPoints)
+- [ ] [Integrated Command Ticket System](#commandTicketSystem)
   
 ## Commands
 | Command | Function |
@@ -13,4 +13,8 @@
 | `/setTicketChannel >#channel<` | Sets a custom channel that'll be created when a user invokes `/ticket`. |
 | `/setTicketExpire >timeInHours<` | Sets a custom auto-deletetion time for the ticket due to inactivity. Default: 5 hours. |
 
-## Statistics
+<a name="helperPoints"></a>
+## Helper Points System
+
+<a name="commandTicketSystem"></a>
+## Integrated Command Ticket System
