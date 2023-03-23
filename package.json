@@ -1,0 +1,30 @@
+{
+  "name": "codinghome-bot",
+  "version": "1.0.0",
+  "description": "Modular discord bot",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "tsc && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Savageboitim13/CodingHome-Bot.git"
+  },
+  "author": "Codinghome Community (https://discord.gg/hbPVsXGdBE)",
+  "contributors": [
+    "Zoey E."
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Savageboitim13/CodingHome-Bot/issues"
+  },
+  "homepage": "https://github.com/Savageboitim13/CodingHome-Bot#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
