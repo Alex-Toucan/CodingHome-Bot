@@ -1,20 +1,20 @@
 # CodingHome-Bot
-## Functionality
-- [ ] [Helper Points System](#helperPoints)
-- [ ] [Integrated Command Ticket System](#commandTicketSystem)
-  
-## Commands
-| Command | Function |
-|---------|----------|
-| `/ticketSetUp` | Sets default roles that can view the ticket `Admin`, `Staff`. |
-| `/removeTicketRole >role<` | Custom command to remove unwanted roles to view the ticket. |
-| `/ticket >reason<` | Creates a private channel for only the user who used that command and for the server team. |
-| `/setTicketRole >role<` | Sets the roles who can chat in the private channel. |
-| `/setTicketChannel >#channel<` | Sets a custom channel that'll be created when a user invokes `/ticket`. |
-| `/setTicketExpire >timeInHours<` | Sets a custom auto-deletetion time for the ticket due to inactivity. Default: 5 hours. |
+Prototype Version of the bot. q(≧▽≦q)
 
-<a name="helperPoints"></a>
-## Helper Points System
+## Installation
+Firstly clone the repository and enter it.
+```
+$ git clone https://github.com/Savageboitim13/CodingHome-Bot.git
+$ cd CodingHome-Bot
+```
+now install the necessary dependencies with npm
+```
+$ npm i
+```
 
-<a name="commandTicketSystem"></a>
-## Integrated Command Ticket System
+Then copy the `.env.example` to `.env` and add your bot token to it.
+
+Now you're ready to run the bot!
+```
+$ npm start
+```

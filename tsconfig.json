@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+	"module": "CommonJS",
+	"target": "ES6",
+	"rootDir": "./src",
+	"outDir": "./out",
+	"resolveJsonModule": true,
+	"sourceMap": true
+  },
+  "exclude": [
+	"node_modules"
+  ]
+}
